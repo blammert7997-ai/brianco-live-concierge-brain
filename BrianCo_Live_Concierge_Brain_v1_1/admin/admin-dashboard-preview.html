@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Brian & Co Admin Dashboard Preview</title></head>
+<body style="font-family:system-ui;background:#07090f;color:#fff8ec;padding:24px;">
+<h1>Brian & Co Admin Dashboard Preview</h1>
+<p>Set API_BASE below after Vercel deploy.</p>
+<input id="api" placeholder="https://your-backend.vercel.app" style="width:420px;padding:8px;">
+<button onclick="loadDash()">Load Dashboard</button>
+<pre id="out" style="background:#111;padding:16px;border-radius:12px;"></pre>
+<script>
+async function loadDash(){
+  const base = document.getElementById('api').value;
+  const res = await fetch(base + '/api/admin');
+  document.getElementById('out').textContent = JSON.stringify(await res.json(), null, 2);
+}
+</script>
+</body>
+</html>

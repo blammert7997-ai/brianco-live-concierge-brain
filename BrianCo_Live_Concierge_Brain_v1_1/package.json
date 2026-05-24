@@ -1,0 +1,16 @@
+{
+  "name": "brianco-live-concierge-brain",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/index.js",
+    "test": "node tests/smoke-test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "openai": "^4.56.0",
+    "zod": "^3.23.8"
+  }
+}
