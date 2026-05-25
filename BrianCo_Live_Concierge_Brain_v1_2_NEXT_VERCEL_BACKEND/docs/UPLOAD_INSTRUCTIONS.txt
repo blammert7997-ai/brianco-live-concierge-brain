@@ -1,0 +1,20 @@
+Brian & Co v1.2 Next/Vercel Backend Upload Instructions
+
+This package fixes persistent /api/health 404 problems by using Next.js App Router routes.
+
+GitHub repo root should contain:
+- app
+- lib
+- supabase
+- shopify
+- docs
+- package.json
+- next.config.mjs
+
+Delete or replace the old backend files if needed.
+
+After upload:
+1. Commit to main.
+2. Vercel should auto-redeploy.
+3. In Vercel, make sure Framework Preset is Next.js.
+4. Test /api/health.
