@@ -1,0 +1,9 @@
+{
+  "name": "brianco-live-concierge-brain-zero-dependency",
+  "version": "1.5.0",
+  "private": true,
+  "scripts": {
+    "build": "echo build-not-needed",
+    "start": "echo vercel-serverless"
+  }
+}

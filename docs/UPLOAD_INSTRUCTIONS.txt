@@ -1,0 +1,22 @@
+Brian & Co v1.5 Zero Dependency Vercel Backend
+
+This version avoids npm install failures by using only native Vercel serverless functions and built-in fetch.
+
+GitHub repo root should contain:
+- api
+- supabase
+- shopify
+- docs
+- package.json
+- vercel.json
+
+Vercel settings:
+Framework Preset: Other
+Root Directory: ./
+Install Command: echo skip install
+Build Command: echo build-not-needed
+Output Directory: .
+Node.js Version: 20.x
+
+Redeploy with build cache off.
+Test /api/health.
