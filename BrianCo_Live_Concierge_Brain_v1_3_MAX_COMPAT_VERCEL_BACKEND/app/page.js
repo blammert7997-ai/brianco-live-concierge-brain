@@ -1,0 +1,1 @@
+export default function Home(){return <main style={{fontFamily:'system-ui',padding:32}}><h1>Brian & Co Live Concierge Brain v1.3</h1><p>Test <a href="/api/health">/api/health</a>.</p></main>}

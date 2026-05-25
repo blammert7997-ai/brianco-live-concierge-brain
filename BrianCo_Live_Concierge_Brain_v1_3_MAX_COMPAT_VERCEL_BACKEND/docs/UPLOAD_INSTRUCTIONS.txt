@@ -1,0 +1,4 @@
+Upload the extracted contents to the GitHub repo root.
+Root must show: app, pages, lib, package.json, next.config.mjs.
+Commit to main. Vercel Framework Preset: Next.js. Root Directory: ./.
+Then test /api/health.
