@@ -25,7 +25,7 @@ This is the next-stage backend activation package for the live v5.3 Shopify them
 ## Shopify connection
 Use `shopify/connect-theme-to-backend.liquid` and replace:
 `https://YOUR-VERCEL-DEPLOYMENT.vercel.app`
-
+Brian & Co Live Concierge Brain Backend
 ## Safety
 Do not put real API keys in Shopify theme files.
 Use environment variables in Vercel.
