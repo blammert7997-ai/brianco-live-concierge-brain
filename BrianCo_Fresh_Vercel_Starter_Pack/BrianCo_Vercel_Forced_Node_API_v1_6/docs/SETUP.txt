@@ -1,0 +1,8 @@
+Upload these files to the GitHub repo root, replacing the old vercel.json and api/health.js.
+
+Then redeploy in Vercel with build cache OFF.
+
+If Vercel complains about Build Command or Output Directory, use:
+Install Command: echo skip
+Build Command: echo build
+Output Directory: .
