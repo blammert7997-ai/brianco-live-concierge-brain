@@ -1,0 +1,8 @@
+{
+  "name": "brianco-fresh-vercel-starter",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo build-complete"
+  }
+}

@@ -1,0 +1,5 @@
+1. Upload ALL files to GitHub repo root.
+2. Replace old files if prompted.
+3. Commit to main.
+4. Redeploy in Vercel.
+5. Test /api/health
